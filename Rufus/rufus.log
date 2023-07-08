@@ -1,0 +1,245 @@
+Rufus x86 v3.22.2009 (Portable)
+Windows version: Windows 7 SP1 64-bit
+Syslinux versions: 4.07/2013-07-25, 6.04/pre1
+Grub versions: 0.4.6a, 2.06
+System locale ID: 0x0409 (en-US)
+Will use default UI locale 0x0409
+SetLGP: Successfully set NoDriveTypeAutorun policy to 0x0000009E
+Localization set to 'en-US'
+Notice: The ISO download feature has been deactivated because 'Check for updates' is disabled in your settings.
+Found USB 3.0 device 'Kingston DataTraveler 3.0 USB Device' (0951:1666)
+Could not open \\.\PhysicalDrive2: [0x00000037] The specified network resource or device is no longer available.
+Device eliminated because it is smaller than 8 MB
+0 devices found
+0 devices found
+0 devices found
+0 devices found
+0 devices found
+Found USB device 'Kingston DataTraveler 3.0 USB Device' (????:????)
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+1 device found
+Disk type: Removable, Disk size: 64 GB, Sector size: 512 bytes
+Cylinders: 7538, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: GPT, NB Partitions: 2
+Disk GUID: {F15F5B5A-9876-4F1C-8103-DE89675D6DD9}
+Max parts: 128, Start Offset: 17408, Usable = 62008556032 bytes
+Partition 1:
+  Type: Microsoft Basic Data Partition
+  Name: 'Main Data Partition'
+  Detected File System: NTFS
+  ID: {1FFCF442-84F2-426D-8328-D8CEB3B49E84}
+  Size: 57.7 GB (62006450688 bytes)
+  Start Sector: 2048, Attributes: 0x0000000000000000
+Partition 2 (UEFI:NTFS):
+  Type: Microsoft Basic Data Partition
+  Name: 'UEFI:NTFS'
+  Detected File System: FAT12
+  ID: {F413C9B2-D51C-4B6B-86B6-1219C53E1422}
+  Size: 1 MB (1048576 bytes)
+  Start Sector: 121108397, Attributes: 0x9000000000000000
+Scanning image...
+ISO analysis:
+  Image is an ISO9660 image
+  Will use '/isolinux.cfg' for Syslinux
+  Detected Syslinux version: 3.86 (from '/isolinux.bin')
+Disk image analysis:
+  Image does not have a Boot Marker
+ISO label: 'ESXI-7.0U3L-21424296-STANDARD'
+  Size: 381.8 MB (Projected)
+  Uses: Syslinux/Isolinux v3.86
+    With an old menu.c32
+  Uses: EFI
+Using image: VMware-VMvisor-Installer-7.0U3l-21424296.x86_64.iso (381.8 MB)
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+
+Format operation started
+Requesting disk access...
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+Will use 'E:' as volume mountpoint
+Opened \\.\PhysicalDrive2 for exclusive write access
+Analyzing existing boot records...
+Drive has a Zeroed Master Boot Record
+Clearing MBR/PBR/GPT structures...
+Erasing 2176 sectors
+Initializing disk...
+Partitioning (GPT)...
+● Creating Main Data Partition (offset: 1048576, size: 57.7 GB)
+Waiting for logical drive to reappear...
+Formatting (Large FAT32)...
+Opened \\?\Volume{1ffcf442-84f2-426d-8328-d8ceb3b49e84} for exclusive write access
+Size : 57.7 GB 121108447 sectors
+Cluster size 32768 bytes, 512 bytes per sector
+Volume ID is 12fc:1609
+32 Reserved sectors, 14781 sectors per FAT, 2 FATs
+1891857 Total clusters
+1891856 Free clusters
+Clearing out 29658 sectors for reserved sectors, FATs and root cluster...
+Initializing reserved sectors and FATs...
+FAT #0 sector at address: 32
+FAT #1 sector at address: 14813
+Writing Partition Boot Record...
+Using Standard FAT32 partition boot record
+Confirmed new volume has a primary FAT32 boot sector
+Setting primary FAT32 boot sector for boot...
+Confirmed new volume has a secondary FAT32 boot sector
+Setting secondary FAT32 boot sector for boot...
+Setting label...
+Format completed.
+Writing Master Boot Record...
+Using Rufus protective MBR
+Writing protective message SBR
+Found volume \\?\Volume{1ffcf442-84f2-426d-8328-d8ceb3b49e84}\
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+Successfully remounted \\?\Volume{1ffcf442-84f2-426d-8328-d8ceb3b49e84}\ as E:
+Extracting files...
+Image is an ISO9660 image
+This image will be extracted using Joliet extensions (if present)
+Extracting: E:\.discinfo (34 bytes)
+Extracting: E:\atlantic.v00 (244.1 KB)
+Extracting: E:\b.b00 (145.0 KB)
+Extracting: E:\basemisc.tgz (2 MB)
+Extracting: E:\bmcal.v00 (30.2 KB)
+Extracting: E:\bnxtnet.v00 (258 KB)
+Extracting: E:\bnxtroce.v00 (111.4 KB)
+Extracting: E:\boot.cat (512 bytes)
+Extracting: E:\boot.cfg (1.7 KB)
+Extracting: E:\brcmfcoe.v00 (579.3 KB)
+Extracting: E:\btldr.v00 (1.1 MB)
+Extracting: E:\crx.v00 (14.6 MB)
+Extracting: E:\efi\boot\boot.cfg (1.7 KB)
+Extracting: E:\efi\boot\bootx64.efi (201.6 KB)
+Extracting: E:\efi\boot\crypto64.efi (73.5 KB)
+Extracting: E:\efi\boot\safeboot.efi (108.9 KB)
+Extracting: E:\efiboot.img (1 MB)
+Extracting: E:\elxiscsi.v00 (150.8 KB)
+Extracting: E:\elxnet.v00 (173.3 KB)
+Extracting: E:\elx_esx_.v00 (456.5 KB)
+Extracting: E:\esxio_co.v00 (141.7 KB)
+Extracting: E:\esxupdt.v00 (493.7 KB)
+Extracting: E:\esx_dvfi.v00 (113.0 KB)
+Extracting: E:\esx_ui.v00 (4.7 MB)
+Extracting: E:\fatbootsector (512 bytes)
+Extracting: E:\features.gz (20 bytes)
+Extracting: E:\gc.v00 (14.2 KB)
+Extracting: E:\i40en.v00 (246.9 KB)
+Extracting: E:\iavmd.v00 (209.3 KB)
+Extracting: E:\icen.v00 (429.5 KB)
+Extracting: E:\igbn.v00 (95.5 KB)
+Extracting: E:\imgdb.tgz (216.3 KB)
+Extracting: E:\imgpayld.tgz (7.7 MB)
+Extracting: E:\ionic_en.v00 (114.3 KB)
+Extracting: E:\irdman.v00 (200.6 KB)
+Extracting: E:\iser.v00 (75 KB)
+Extracting: E:\isolinux.bin (14 KB)
+Extracting: E:\isolinux.cfg (271 bytes)
+Extracting: E:\ixgben.v00 (159.4 KB)
+Extracting: E:\jumpstrt.gz (20 bytes)
+Extracting: E:\k.b00 (5.4 MB)
+Skipping 'ldlinux.sys' file from ISO image
+Extracting: E:\loadesx.v00 (911.1 KB)
+Extracting: E:\lpfc.v00 (782.8 KB)
+Extracting: E:\lpnic.v00 (172.6 KB)
+Extracting: E:\lsi_mr3.v00 (95.7 KB)
+Extracting: E:\lsi_msgp.v00 (132 KB)
+Extracting: E:\lsi_msgp.v01 (181.2 KB)
+Extracting: E:\lsi_msgp.v02 (141.1 KB)
+Extracting: E:\lsuv2_hp.v00 (24.1 KB)
+Extracting: E:\lsuv2_in.v00 (23.9 KB)
+Extracting: E:\lsuv2_ls.v00 (426.0 KB)
+Extracting: E:\lsuv2_nv.v00 (2.7 KB)
+Extracting: E:\lsuv2_oe.v00 (4.2 KB)
+Extracting: E:\lsuv2_oe.v01 (4.1 KB)
+Extracting: E:\lsuv2_oe.v02 (4.1 KB)
+Extracting: E:\lsuv2_sm.v00 (21.3 KB)
+Extracting: E:\mboot.c32 (104.3 KB)
+Extracting: E:\menu.c32 (52.2 KB)
+Extracting: E:\mtip32xx.v00 (70 KB)
+Extracting: E:\native_m.v00 (595.9 KB)
+Extracting: E:\ne1000.v00 (171.7 KB)
+Extracting: E:\nenic.v00 (75.8 KB)
+Extracting: E:\nfnic.v00 (165.5 KB)
+Extracting: E:\nhpsa.v00 (183.0 KB)
+Extracting: E:\nmlx4_co.v00 (190 KB)
+Extracting: E:\nmlx4_en.v00 (169.8 KB)
+Extracting: E:\nmlx4_rd.v00 (89 KB)
+Extracting: E:\nmlx5_co.v00 (664.3 KB)
+Extracting: E:\nmlx5_rd.v00 (85.6 KB)
+Extracting: E:\ntg3.v00 (34.5 KB)
+Extracting: E:\nvmerdma.v00 (46.7 KB)
+Extracting: E:\nvmetcp.v00 (52.3 KB)
+Extracting: E:\nvme_pci.v00 (33.8 KB)
+Extracting: E:\nvmxnet3.v00 (57.7 KB)
+Extracting: E:\nvmxnet3.v01 (48.4 KB)
+Extracting: E:\procfs.b00 (8.9 KB)
+Extracting: E:\pvscsi.v00 (30.2 KB)
+Extracting: E:\qcnic.v00 (85.8 KB)
+Extracting: E:\qedentv.v00 (1.2 MB)
+Extracting: E:\qedrntv.v00 (1.1 MB)
+Extracting: E:\qfle3.v00 (915.3 KB)
+Extracting: E:\qfle3f.v00 (335.1 KB)
+Extracting: E:\qfle3i.v00 (107.1 KB)
+Extracting: E:\qflge.v00 (196.9 KB)
+Extracting: E:\qlnative.v00 (849.8 KB)
+Extracting: E:\resvibs.tgz (45 bytes)
+Extracting: E:\rste.v00 (210.5 KB)
+Extracting: E:\s.v00 (20.2 MB)
+Extracting: E:\safeboot.c32 (68.5 KB)
+Extracting: E:\sb.v00 (46.8 MB)
+Extracting: E:\sfvmk.v00 (234.9 KB)
+Extracting: E:\smartpqi.v00 (169.2 KB)
+Extracting: E:\tools.t00 (160.9 MB)
+Extracting: E:\tpm.v00 (8.9 KB)
+Extracting: E:\tpmesxup.v00 (3.5 KB)
+Extracting: E:\trx.v00 (6.2 MB)
+Extracting: E:\uc_amd.b00 (14.9 KB)
+Extracting: E:\uc_hygon.b00 (29 bytes)
+Extracting: E:\uc_intel.b00 (2.1 MB)
+Extracting: E:\upgrade\esximage.zip (2.0 MB)
+Extracting: E:\upgrade\extlinux (62.5 KB)
+Extracting: E:\upgrade\gptmbr.bin (424 bytes)
+Extracting: E:\upgrade\mbr.bin (440 bytes)
+Extracting: E:\upgrade\metadata.xml (1.7 KB)
+Extracting: E:\upgrade\metadata.zip (191.8 KB)
+Extracting: E:\upgrade\precheck.py (146.8 KB)
+Extracting: E:\upgrade\prep.py (5.4 KB)
+Extracting: E:\upgrade\profile.xml (11.1 KB)
+Extracting: E:\useropts.gz (21 bytes)
+Extracting: E:\vdfs.v00 (4.8 MB)
+Extracting: E:\vim.v00 (24.7 MB)
+Extracting: E:\vmkata.v00 (55.7 KB)
+Extracting: E:\vmkfcoe.v00 (259.5 KB)
+Extracting: E:\vmkusb.v00 (324.9 KB)
+Extracting: E:\vmware-esx-base-osl.txt (8.3 MB)
+Extracting: E:\vmware-esx-base-readme (2.2 KB)
+Extracting: E:\vmware_e.v00 (46.4 KB)
+Extracting: E:\vmw_ahci.v00 (64.8 KB)
+Extracting: E:\vmx.v00 (32.1 MB)
+Extracting: E:\vsan.v00 (11.8 MB)
+Extracting: E:\vsanheal.v00 (500.9 KB)
+Extracting: E:\vsanmgmt.v00 (5.0 MB)
+Extracting: E:\weaselin.v00 (1.2 MB)
+Extracting: E:\xorg.v00 (1.4 MB)
+Created: E:\syslinux.cfg → /isolinux.cfg
+Finalizing, please wait...
+Created: E:autorun.inf
+Created: E:autorun.ico
+
+Found USB device 'Kingston DataTraveler 3.0 USB Device' (????:????)
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+Using 'autorun.inf' label for drive E: 'ESXI-7.0U3L-21424296-STANDARD'
+Could not get device number for device \\.\T: [0x00000057] The parameter is incorrect.
+1 device found
+Disk type: Removable, Disk size: 64 GB, Sector size: 512 bytes
+Cylinders: 7538, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: GPT, NB Partitions: 1
+Disk GUID: {DF2730FE-C2E5-429E-892A-68E9C9669D8B}
+Max parts: 128, Start Offset: 17408, Usable = 62008556032 bytes
+Partition 1:
+  Type: Microsoft Basic Data Partition
+  Name: 'Main Data Partition'
+  Detected File System: FAT32
+  ID: {1CACC638-5987-4311-BEC1-8A02187A5F01}
+  Size: 57.7 GB (62007524864 bytes)
+  Start Sector: 2048, Attributes: 0x0000000000000000
